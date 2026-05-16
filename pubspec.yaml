@@ -1,0 +1,34 @@
+name: style_genie_mvp
+description: AI Style Genie - MVP Semaine 1 (1 photo → 1 suggestion texte)
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Vision IA (utiliser http pour appels API directs)
+  http: ^1.1.0
+  
+  # Camera & Image
+  image_picker: ^1.0.0
+  image: ^4.0.0
+  
+  # Local Storage (Cache)
+  hive_flutter: ^1.1.0
+  hive: ^2.2.0
+  
+  # Crypto (pour hash d'image)
+  crypto: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
