@@ -32,3 +32,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - test_1_white_tshirt.jpg
+    - test_2_black_jeans.jpg
+    - test_3_summer_dress.jpg
+    - test_4_blazer_outfit.jpg
+    - test_5_casual_hoodie.jpg
